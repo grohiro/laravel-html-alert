@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
  */
 class AlertServiceProvider extends ServiceProvider
 {
-  public function register()
+  public function boot()
   {
     $this->registerMacro();
     \Grohiro\Laravel\Alert\Alert::$formatter = new LaravelFormat();
