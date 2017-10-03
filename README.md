@@ -3,7 +3,7 @@
 ## Usage
 
 ```php
-use Grohiro\Html\Alert\Alert;
+use Grohiro\Laravel\Alert\Alert;
 
 // Controller
 public function index()
