@@ -19,7 +19,7 @@ public function index()
 ## Install
 
 ```
-$ compore require grohiro/laravel-html-alert 'dev-master'
+$ composer require grohiro/laravel-html-alert 'dev-master'
 ```
 
 Add the service provider to `config/app.php'
