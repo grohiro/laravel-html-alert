@@ -8,7 +8,7 @@ use Grohiro\Laravel\Alert\Alert;
 // Controller
 public function index()
 {
-  return view('index')->withAlert(Alert::success('Done.');
+  return view('index')->withAlert(Alert::success('Done.'));
 }
 ```
 
