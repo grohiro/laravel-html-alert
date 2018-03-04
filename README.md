@@ -18,6 +18,17 @@ public function index()
 
 ## Install
 
+Add the repository to composer.json
+
+```
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:grohiro/laravel-html-alert.git"
+        }
+    ],
+```
+
 ```
 $ composer require grohiro/laravel-html-alert 'dev-master'
 ```
